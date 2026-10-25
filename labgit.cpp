@@ -5,7 +5,7 @@
 using namespace std;
 int main () {
     ifstream archivoEntrada("input/archivoEntrada.txt");
-    ofstream archiviSalida("output/archivoSalida.txt");
+    ofstream archivoSalida("output/archivoSalida.txt");
 
     if (archivoEntrada.is_open() && archivoSalida.is_open()) {
         cout<<"Archivo abierto"<<endl;
@@ -15,6 +15,6 @@ int main () {
 	  archivoSalida << linea;
 
         }
-	cout<<"Archivo copiado correctamnte"<<endl;
+	cout<<"Archivo copiado correctamente"<<endl;
     }
 }
